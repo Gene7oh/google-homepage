@@ -14,10 +14,12 @@ Corrections List:
 
   * Various markdown tutorials.
 
-Start a new line to practice blockquote in the markup language.
+Remove blockquote and add in-line image.
 
-Almost every workplace has at least one toxic employee. You know the type—always negative, tends to bully others, distracts much of the team ... the "bad apple" that ruins the barrel. But what if someone were to tell you that you were that person?
+![google logo](images/google-logo.png)
 
-> You Make Everything About You
+Image successfully loaded and displayed!
 
-This is something most people are guilty of at least once in their lives. Everyone goes through tough times or phases where they desire more attention than usual
+A commit gone bad.
+open new terminal close the stuck terminal. Pray for the best.
+Done. new commit started
