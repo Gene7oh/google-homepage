@@ -23,3 +23,5 @@ Image successfully loaded and displayed!
 A commit gone bad.
 open new terminal close the stuck terminal. Pray for the best.
 Done. new commit started
+
+On to the google home page clone project.
