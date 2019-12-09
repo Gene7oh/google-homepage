@@ -1,3 +1,4 @@
+@import url("reset.css");
 html {
     font-size: 16px;
 }
@@ -48,4 +49,11 @@ nav, ul {
 }
 h1 > img {
     width: 175px;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.row {
+   grid-template-columns: ;
 }
