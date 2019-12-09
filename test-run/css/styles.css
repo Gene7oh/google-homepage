@@ -7,5 +7,42 @@ h1 {
 small {
     font-size: 20px;
     font-style: italic;
-    color: darkblue;
+    color: #0069b3;
+}
+body {
+    display: grid;
+}
+nav {
+    display: grid;
+    font-size: small;
+    font-weight: bolder;
+    /** study on the grid and flex later */
+    color: #0069b3;
+
+}
+nav, ul {
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "open menu1 menu2 menu3";
+    list-style-type: none;
+}
+.nav-item {
+    padding: 0 10px 10px 0;
+    text-decoration: none;
+    width:90px;
+}
+.open {
+    grid-area: open;
+    width: auto;
+}
+.menu1 {
+    grid-area: menu1;
+}
+.menu2 {
+    grid-area: menu2;
+}
+.menu2 {
+    grid-area: menu3;
 }
