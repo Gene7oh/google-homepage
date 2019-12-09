@@ -46,3 +46,6 @@ nav, ul {
 .menu2 {
     grid-area: menu3;
 }
+h1 > img {
+    width: 175px;
+}
