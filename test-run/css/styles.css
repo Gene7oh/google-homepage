@@ -19,6 +19,7 @@ nav {
     font-weight: bolder;
     /** study on the grid and flex later */
     color: #0069b3;
+    width:100%;
 
 }
 nav, ul {
@@ -28,15 +29,21 @@ nav, ul {
     grid-template-areas: 
     "open menu1 menu2 menu3";
     list-style-type: none;
+    width:100%;
 }
 .nav-item {
     padding: 0 10px 10px 0;
     text-decoration: none;
     width:90px;
 }
+.nav-link {
+    text-decoration: none;
+}
 .open {
     grid-area: open;
     width: auto;
+    float: left;
+    clear:right;
 }
 .menu1 {
     grid-area: menu1;
