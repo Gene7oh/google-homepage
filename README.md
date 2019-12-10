@@ -25,3 +25,5 @@ open new terminal close the stuck terminal. Pray for the best.
 Done. new commit started
 
 On to the google home page clone project.
+
+Create start-index branch merge then remove the homepage-test branch.
