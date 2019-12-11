@@ -1,0 +1,18 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.navbar {
+    /* main element*/
+    display: inline;
+    font-size:10px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.75px;
+}
+.nav-container {
+    /* nav ul */
+    background-color:lightgray;
+    list-style-type: nones;
+}
+.nav-item {
+    display: inline;
+    border-right: .7px solid black;
+}
