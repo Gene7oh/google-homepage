@@ -5,7 +5,9 @@ body {
     text-align: center;
 }
 html {
-    font-size: 16px;
+    font-size: 16px;gene7oh@gene7oh-VirtualBox:~/Projects/Odin/google-homepage/test-run$ git commit -m structure mods to index style mods to css all in hopes of resolving conflicts"
+    > 
+    
     font-family: 'Montserrat' sans-serif;
 }
 h1 {
@@ -34,7 +36,6 @@ nav, ul.right {
     grid-template-rows: auto auto auto;
     grid-template-areas: 
     "menu1 menu2 menu3";
-<<<<<<< HEAD
     list-style-type: none;
     /* width:90%; */
 }
@@ -47,19 +48,6 @@ ul.left {
     "about store";
     list-style-type: none;
     /* width: 90%; */
-=======
-    list-style-type: none;
-    width:90%;
-}
-ul.left {
-    display:grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-    "about store";
-    list-style-type: none;
-    width: 90%;
->>>>>>> 11b7362bbf72a0cf60742c9c2fc7aefda354b73e
 }
 .nav-item {
     padding: 0 10px 10px 0;
