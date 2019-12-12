@@ -1,5 +1,9 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+body {
+    width: 100%;
+    text-align: center;
+}
 html {
     font-size: 16px;
     font-family: 'Montserrat' sans-serif;
@@ -21,7 +25,7 @@ nav {
     font-weight: bolder;
     /** study on the grid and flex later */
     color: #0069b3;
-    width:100%;
+    /* width:100%; */
 
 }
 nav, ul.right {
@@ -31,7 +35,7 @@ nav, ul.right {
     grid-template-areas: 
     "menu1 menu2 menu3";
     list-style-type: none;
-    width:90%;
+    /* width:90%; */
 }
 ul.left {
     font-family: 'Roboto' , sans-serif;
@@ -41,7 +45,7 @@ ul.left {
     grid-template-areas:
     "about store";
     list-style-type: none;
-    width: 90%;
+    /* width: 90%; */
 }
 .nav-item {
     padding: 0 10px 10px 0;
