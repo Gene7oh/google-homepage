@@ -84,3 +84,26 @@ h1 > img {
 .g-logo {
     margin-top: 25%;
 }
+div.form {
+    width: 100%;
+    text-align: center;
+}
+.search-bar {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "bar f-ticon button";
+    text-align: center;
+}
+.search {
+    text-align: center;
+}
+.bar {
+    grid-area: bar;
+}
+.f-ticon {
+    grid-area: f-ticon;
+}
+.button {
+    grid-area: button;
+}
