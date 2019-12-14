@@ -1,0 +1,28 @@
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.column {
+    flex-basis:100%;
+    border: 1px solid black;
+}
+@media screen and (min-width: 800px){
+    .column {
+        flex: 1;
+    }
+    .col-25 {
+        flex: 2.5;
+    }
+    .col-20 {
+        flex: 2;
+    }
+    .col-55 {
+        flex: 5.5;
+    }
+}
