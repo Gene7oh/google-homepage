@@ -18,24 +18,25 @@ small {
 .container {
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 nav ul {
     list-style-type: none;
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
 } 
 .nav-item {
 padding-right: 5px;
 }
 .left {
     float:left;
-    clear:both;
-    width: 20%;
+    width: 30%;
 }
 .right {
     float:right;
-    clear:both;
-    width: 50%;
+    width: 60%;
 }
 .g-logo {
     width: 175px;
