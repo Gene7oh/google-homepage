@@ -1,0 +1,43 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+body {
+    text-align:center;
+    width: 100%;
+}
+html {
+    font-family: 'Montserat' , sans-serif;
+}
+h1 {
+    font-size:40px;
+}
+small {
+    font-size: 20px;
+    font-style: italic;
+    color: #0069b3;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+}
+nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+} 
+.nav-item {
+padding-right: 5px;
+}
+.left {
+    float:left;
+    clear:both;
+    width: 20%;
+}
+.right {
+    float:right;
+    clear:both;
+    width: 50%;
+}
+.g-logo {
+    width: 175px;
+    text-align:center;
+}

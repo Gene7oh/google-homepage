@@ -5,9 +5,6 @@ body {
     text-align: center;
 }
 html {
-    font-size: 16px;gene7oh@gene7oh-VirtualBox:~/Projects/Odin/google-homepage/test-run$ git commit -m structure mods to index style mods to css all in hopes of resolving conflicts"
-    > 
-    
     font-family: 'Montserrat' sans-serif;
 }
 h1 {
@@ -20,6 +17,11 @@ small {
 }
 body {
     display: grid;
+}
+.container {
+    display:flex;
+    text-align: center;
+    grid-template-columns: 2fr 4fr 2fr;
 }
 nav {
     display: grid;
@@ -75,12 +77,7 @@ ul.left {
 h1 > img {
     width: 175px;
 }
-/** end menu start body */
-.container {
-    display:grid;
-    text-align: center;
-    grid-template-columns: 2fr 4fr 2fr;
-}
+/** end menu styles start body */
 .g-logo {
     margin-top: 25%;
 }
