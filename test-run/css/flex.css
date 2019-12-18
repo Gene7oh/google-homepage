@@ -24,6 +24,8 @@ a {
     text-decoration: none;
 }
 nav ul {
+    font-size: 12px;
+    font-weight: bold;
     list-style-type: none;
     display:flex;
     flex-direction: row;
@@ -41,6 +43,10 @@ padding-right: 5px;
     float:right;
     width: 60%;
 }
+.main {
+    text-align: center;
+    width: 85%;
+}
 .g-logo {
     margin-top: 15%;
     margin-bottom: 10%;
@@ -49,11 +55,14 @@ padding-right: 5px;
     justify-items: baseline;
 }
 .footer ul {
+    font-size: 12px;
+    font-weight: bold;
     list-style-type: none;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
+    margin-top: 15%;
 }
 .ft-item {
     padding-right: 5px;
