@@ -10,22 +10,19 @@ html {
 h1 {
     font-size:40px;
 }
-small {
-    font-size: 20px;
-    font-style: italic;
-    color: #0069b3;
-}
+
 .container {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
 }
-a {
+a  {
     text-decoration: none;
+    color:black !important;
 }
 nav ul {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 11px;
+    font-weight: normal;
     list-style-type: none;
     display:flex;
     flex-direction: row;
@@ -33,15 +30,23 @@ nav ul {
     align-items: baseline;
 } 
 .nav-item {
-padding-right: 5px;
+    margin: 0 8px 0 8px;
+}
+.about, .store {
+    margin: 8px 0 8px 0;
+    color:black;
+}
+.menu1, .menu2, .menu3 {
+    width:13%;
+    color:black;
 }
 .left {
     float:left;
-    width: 30%;
+    width: 10%;
 }
 .right {
     float:right;
-    width: 60%;
+    width: 30%;
 }
 .main {
     text-align: center;
@@ -54,16 +59,56 @@ padding-right: 5px;
 .search-bar {
     justify-items: baseline;
 }
+input[type='search'] {
+    background-image: url('../images/search-icon.png') ;
+    background-repeat: no-repeat;
+    height:50px;
+    background-position-x: 3px;
+    background-position-y: center;
+    width: 100%;
+    border-radius: 15px;
+    opacity: .4;
+    margin-bottom: 20%;
+}
+.footer {
+    background-color:linen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 22%;
+    margin-top:12%;
+}
 .footer ul {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: 'Roboto' , sans-serif;
     list-style-type: none;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-    margin-top: 15%;
+}
+.ft-cont {
+    width: 100%;
+    background-color: linen;
+    color: black;
+}
+.ft-left {
+    float: left;
+    width: 20%;
+}
+.ft-right {
+    float:right;
+    width:20%;
 }
 .ft-item {
-    padding-right: 5px;
+    margin-right: 11px;
+} 
+.ft-nav {
+    color:black;
+}
+.ft-nav:hover {
+    text-decoration: none;
+    color: rgb(233, 202, 146);
+    text-shadow: rgba(233, 203, 146, 0.719);
 }
